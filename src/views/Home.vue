@@ -10,17 +10,17 @@
 					>
 						<RouterLink
 							to="/expanding-cards"
-							class="card w-48 rounded-sm shadow-xl"
+							class="card w-52 rounded-sm shadow-xl"
 						>
 							<div class="card-body">
-								<h2 class="card-title font-bold">Expanding Cards</h2>
+								<h2 class="card-title">Expanding Cards</h2>
 								<p>Imagen aqui</p>
 							</div>
 						</RouterLink>
 
-						<div class="card w-48 rounded-sm bg-base-100 shadow-xl">
+						<div class="card w-52 rounded-sm bg-base-100 shadow-xl">
 							<div class="card-body">
-								<h2 class="card-title font-bold">Card</h2>
+								<h2 class="card-title">Card</h2>
 								<p>Imagen aqui</p>
 							</div>
 						</div>

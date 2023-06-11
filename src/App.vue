@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<main class="bg-base-200">
+	<main class="bg-base-100">
 		<RouterView />
 	</main>
 </template>
