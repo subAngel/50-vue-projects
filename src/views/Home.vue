@@ -9,7 +9,11 @@
 		</div>
 	</div>
 	<div class="h-screen pt-10 grid grid-cols-4 gap-4 mx-36">
-		<CardProject title="Expanding Cards" desc="" />
+		<CardProject
+			title="Expanding Cards"
+			desc=""
+			imagen="../../public/expcards.png"
+		/>
 	</div>
 </template>
 
