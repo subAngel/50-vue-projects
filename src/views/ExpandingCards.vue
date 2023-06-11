@@ -1,6 +1,6 @@
 <template>
 	<div class="h-screen flex flex-col">
-		<RetHomeBar />
+		<RetHomeBar title="Expanding Cards" />
 		<div class="overflow-hidden flex-grow w-screen container">
 			<div
 				v-for="(panel, index) in panels"
@@ -57,6 +57,9 @@ function toggleActive(index) {
 		panel.active = i === index && !panel.active;
 	});
 }
+const props = defineProps({
+	titleP: String,
+});
 </script>
 
 <style>
