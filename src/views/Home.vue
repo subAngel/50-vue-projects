@@ -30,6 +30,7 @@
 			desc=""
 			imagen=""
 		/>
+		<CardProject to="rotating-nav" title="Rotating Navigation Animation" />
 	</div>
 </template>
 

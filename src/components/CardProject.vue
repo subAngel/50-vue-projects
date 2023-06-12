@@ -1,6 +1,6 @@
 <template>
 	<RouterLink :to="to" class="card w-60 rounded-sm image-full shadow-xl h-44">
-		<figure>
+		<figure v-if="imagen">
 			<img :src="imagen" alt="title" />
 		</figure>
 		<div class="card-body">
