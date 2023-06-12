@@ -4,11 +4,20 @@
 			<div class="hero-content text-center">
 				<div class="max-w-md">
 					<h1 class="text-5xl font-bold my-9">50 proyectos en 50 dias</h1>
+					<a
+						href="#proyectos"
+						class="ease-in duration-300"
+						@click="scrollToDiv"
+						>Proyectos</a
+					>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="h-screen pt-10 grid grid-cols-4 gap-4 mx-36">
+	<div
+		class="h-screen pt-10 grid grid-cols-4 gap-4 mx-36 ease-in duration-300"
+		id="proyectos"
+	>
 		<CardProject
 			to="/expanding-cards"
 			title="Expanding Cards"
