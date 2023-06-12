@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./views/Home.vue";
 import ExpandingCards from "./views/ExpandingCards.vue";
+import SplitLandingPage from "./views/SplitLandingPage.vue";
 
 const routes = [
 	{
@@ -10,6 +11,10 @@ const routes = [
 	{
 		path: "/expanding-cards",
 		component: ExpandingCards,
+	},
+	{
+		path: "/split-landing-page",
+		component: SplitLandingPage,
 	},
 ];
 

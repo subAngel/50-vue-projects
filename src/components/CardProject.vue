@@ -1,8 +1,5 @@
 <template>
-	<RouterLink
-		to="/expanding-cards"
-		class="card w-60 rounded-sm image-full shadow-xl h-44"
-	>
+	<RouterLink :to="to" class="card w-60 rounded-sm image-full shadow-xl h-44">
 		<figure>
 			<img :src="imagen" alt="title" />
 		</figure>
@@ -20,5 +17,9 @@ const props = defineProps({
 	title: String,
 	desc: String,
 	imagen: String,
+	to: {
+		type: String,
+		required: true,
+	},
 });
 </script>

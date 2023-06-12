@@ -10,9 +10,16 @@
 	</div>
 	<div class="h-screen pt-10 grid grid-cols-4 gap-4 mx-36">
 		<CardProject
+			to="/expanding-cards"
 			title="Expanding Cards"
 			desc=""
-			imagen="../../public/expcards.png"
+			imagen="../../public/ss/expcards.png"
+		/>
+		<CardProject
+			to="/split-landing-page"
+			title="Split Landing Page"
+			desc=""
+			imagen=""
 		/>
 	</div>
 </template>
