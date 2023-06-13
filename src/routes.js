@@ -3,6 +3,7 @@ import Home from "./views/Home.vue";
 import ExpandingCards from "./views/ExpandingCards.vue";
 import SplitLandingPage from "./views/SplitLandingPage.vue";
 import RotatingNav from "./views/RotatingNavAnimation.vue";
+import HiddenSearch from "./views/HiddenSearchInput.vue";
 const routes = [
 	{
 		path: "/",
@@ -19,6 +20,10 @@ const routes = [
 	{
 		path: "/rotating-nav",
 		component: RotatingNav,
+	},
+	{
+		path: "/hidden-search",
+		component: HiddenSearch,
 	},
 ];
 

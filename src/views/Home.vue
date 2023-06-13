@@ -31,6 +31,7 @@
 			imagen=""
 		/>
 		<CardProject to="rotating-nav" title="Rotating Navigation Animation" />
+		<CardProject to="/hidden-search" title="Hidden Search Input" />
 	</div>
 </template>
 
